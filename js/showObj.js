@@ -11,7 +11,7 @@ function dots(name) {
     return '.'.repeat(dotsQuant);
 }
 
-//Showing the companies names and theirs years of foundation
+//Showing the company names and their years of foundation
 function show(companies) {
     return companies.name + dots(companies.name) + companies.founded;
 }
